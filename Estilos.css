@@ -1,0 +1,238 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#Fondo{
+  background: linear-gradient(100deg,#000000,rgb(26, 0, 0),#000000);
+  border: 0px solid rgb(0,0,0);
+  background-size: 300% 300%;
+  animation: color 5s ease-in-out infinite;
+  padding: 1px;
+}
+
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 10%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+
+.pagina{
+  color: rgb(206, 206, 206);
+  margin-bottom: 15px;
+  margin-top: -10px;
+  border-bottom: 2px solid rgb(206, 206, 206);
+  border-top: 2px solid rgb(206, 206, 206);
+  background-image: url(https://cdn.prod.website-files.com/5a9ee6416e90d20001b20038/64dc98450682bcba9cdfbde9_02.jpg);
+  padding-bottom: 200px;
+}
+
+header{
+  background: rgb(0, 0, 0);
+  background-image: url(https://cdn.prod.website-files.com/5a9ee6416e90d20001b20038/64dc9845e0aa31b900043857_06.jpg);
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  line-height: 100px;
+  color: rgb(206, 206, 206);
+  border-bottom: 5px solid rgb(206, 206, 206);
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Parrafo{  
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  font-size: large;
+  font-family: "Zilla Slab", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+}
+
+header{
+   text-align: left;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+#container{
+   width: 80%;
+   margin: 0px auto;
+   border: 1px solid rgb(0, 0, 0);
+}
+
+nav {
+  background: rgb(27, 27, 27);
+  height: 50px;
+  border-bottom: 2px solid rgb(206, 206, 206);
+  position: sticky;
+  top: 0;
+}
+
+nav ul li{
+  float: right;
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  line-height: 30px ;
+  font-size: larger;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: #fdfdfd;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: .3s;
+}
+
+nav a:hover{
+  color: rgb(255, 0, 0);
+}
+
+nav a{
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+#content{
+   background: rgb(0, 0, 0);
+   text-align: center;
+}
+
+#content p{
+  padding: 60px;
+  text-align: center;
+  font-size: larger;
+}
+
+
+table{
+  padding: 30px;
+  margin: 0 auto;
+}
+
+
+.pagina:first-child{
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+  padding-bottom: 200px;
+}
+
+#conocimientos{
+  scroll-margin-top: 20ex;
+}
+
+#Proyectos{
+  scroll-margin-top: 25ex;
+}
+
+.pagina h2{
+  font-size: 25px;
+  padding: 40px;
+  font-family: "Zilla Slab", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+footer{
+  background-color: rgb(0, 0, 0);
+  line-height: 50px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -13px;
+  margin-bottom: -12px;
+}
+
+footer div{
+  text-align: right;
+  margin-right: 24.9%;
+}
+
+
+footer button{
+  width: 200px;
+  height: 35px;
+  margin-right: 295px;
+  font-size: large;
+  color: #000000;
+  background: #7e7d7d;
+  box-shadow: 0px 0px 10px #d3d3d3;
+}
+
+footer h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+  margin-top: -40px;
+  background: #d3d3d3;
+  color: #000;
+  font-family: "Zilla Slab", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+::placeholder{
+  font-size: large;
+}
+
+
+#TablaRedes {
+  margin-right: 90%;
+  margin: 10px;
+  width: 50px;
+}
+
+#TablaRedes img{
+  width: 50px;
+}
+
+.controles{
+  width: 50%;
+  height: 20px;
+  margin-left: 62%;
+  border: solid rgb(39, 39, 39);
+  box-shadow: 0px 0px 5px #d3d3d3;
+  font-family: "Zilla Slab", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#txtMensaje{
+  margin-top: 20px;
+  height: 200px;
+  max-height: 500px;
+  max-width: 900px;
+}
+
+section h2{
+  background: fixed rgb(15, 15, 15);
+  font-style: italic;
+}
+
+#ComentarioProyecto1{
+  font-size: larger;
+  font-family: "Zilla Slab", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}

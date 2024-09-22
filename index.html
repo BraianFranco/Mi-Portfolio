@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script src="codigo.js"></script>
+
+</head>
+<body>  
+
+    <div id="Fondo">
+
+        <div id="container">
+
+            <header>
+           
+                <h1>Braian Exequiel Franco</h1>                
+            
+            </header>
+
+            <nav>
+             <ul>
+                <li>
+                    <a href="#TablaRedes">
+                        Contacto
+                    </a>
+                </li>
+                <li>
+                    <a href="#Proyectos">
+                       Proyectos
+                    </a>
+                </li>
+                <li>
+                    <a href="#conocimientos">
+                        Conocimientos
+                    </a>
+                </li>
+                <li>
+                    <a href="#container">
+                        inicio
+                    </a>
+                </li>
+             </ul>
+            </nav>
+
+            <section id = "content">
+                <article class="pagina">
+                    <h2>Sobre mí</h2>
+                    <div id = "Parrafo">
+
+                        <img width="150px" src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="Perfil">
+                        
+                        <p>
+                             Mi nombre es Braian Franco actualmente me encuentro estudiando en la UTN
+                            (Universidad Tecnológica Nacional) localizada en Pacheco.
+                             Todo mi conocimiento viene de ahí y estoy en busca de aprender más.
+                    
+                            Mis hobbies son los videojuegos , las películas y de vez en cuando tocar un poco la batería. 
+                        </p>
+                    </div>
+      
+              </article><article class="pagina">
+                   <h2 id="conocimientos">Conocimientos</h2>
+                   <table>
+                    <tr>
+                    <td ><img width="250px" src="https://pluralsight.imgix.net/paths/path-icons/c-plus-plus-93c7ddd5cc.png" alt="C++" ></td>
+                    <td ><img width="130px" src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png" alt="C#"></td>
+                    <td ><img width="190px" src="https://silk.us/wp-content/uploads/2021/03/sql-server-logo-white.png" alt="Sql"></td>
+                    <td ><img width="190px" src="https://www.englishradar.com/wp-content/uploads/2016/04/English-level-B1.png" alt="Ingles"> Ingles</td>
+                    </tr>
+                  </table>
+    
+                </article><article class="pagina">
+                    <h2 id="Proyectos">Proyectos</h2>
+                 
+                    <a href="https://github.com/LeanIvan/tp-winform-equipo-6A" target="_blank">
+                        <img width="200px" src="https://img.icons8.com/fluent-systems-filled/200/FFFFFF/github.png" alt="Git">
+                    </a>             
+                  <div id="ComentarioProyecto1">
+                    Proyecto de Winforms (En conjunto con 2 compañeros)
+                  </div>
+            </section>     
+            
+          <footer > 
+            <h2>Contacto</h2>    
+                <div>  
+                    <section class="Formulario">
+                    
+                        <div>
+                            <input class="controles" id = "txtNombre" type="textNombre" placeholder="Ingrese su nombre...">
+                        </div>
+                        <div>
+                            <input  class="controles" id = "txtCorreo" type="textCorreo" placeholder="Ingrese su correo...">
+                        </div>
+                        <div>
+                            <input  class="controles"id = "txtTel" type="textTel" placeholder="Ingrese su Teléfono...">
+                        </div>
+                        <div>   
+                            <textarea  class="controles"id = "txtMensaje" stpe="textMensaje" placeholder="Ingrese su mensaje..."></textarea>
+                        </div> 
+                        
+                    </section>
+
+                        <button onclick= FormularioMensaje()>Enviar</button>                
+                    
+                    <table id="TablaRedes">
+                        <tr>
+                        <td ><a href="https://www.instagram.com/b_franco6/" target="_blank">
+                            <img id="imgInstagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram">
+                        </a>
+                        </td>
+                        <td ><a href="https://www.linkedin.com/in/braian-franco-08348332a/" target="_blank">
+                            <img id="imgLinkedin" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Linkedin">
+                        </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/BraianFranco" target="_blank">
+                            <img src="https://img.icons8.com/fluent-systems-filled/200/FFFFFF/github.png" alt="GitHubPersonal">
+                            </a>
+                        </td>
+                        </tr>
+                      </table>
+                </div>
+                
+          </footer>
+    
+        </div>
+
+    </div>
+
+    
+</body>
+
+
+
+</html>
